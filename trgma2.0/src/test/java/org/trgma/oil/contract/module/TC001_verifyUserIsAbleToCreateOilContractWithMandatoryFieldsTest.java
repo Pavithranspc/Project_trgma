@@ -8,6 +8,7 @@ import org.trmga.objectrepository.CampaignPage;
 import org.trmga.objectrepository.CreateCampaignPage;
 import org.trmga.objectrepository.DashboardPage;
 
+
 public class TC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest extends BaseClass {
 	
 	@Test
