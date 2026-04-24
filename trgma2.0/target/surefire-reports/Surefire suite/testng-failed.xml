@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="org.trmga.ags.contract.module.TC001_verifyUserIsAbleToCreateAgslContractWithMandatoryFieldsTest">
+        <methods>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+          <include name="tC001_verifyUserIsAbleToCreateAgsContractWithMandatoryFieldsTest"/>
+          <include name="aftertest"/>
+          <include name="afterclass"/>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+          <include name="beforesuite"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- org.trmga.ags.contract.module.TC001_verifyUserIsAbleToCreateAgslContractWithMandatoryFieldsTest -->
+      <class name="org.trmga.ags.contract.module.TC002_verifyUserIsAbleToCreateAgsContractWithAllFieldsTest">
+        <methods>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+          <include name="aftermethod"/>
+          <include name="tC002_verifyUserIsAbleToCreateAgsContractWithAllFieldsTest"/>
+          <include name="afterclass"/>
+          <include name="beforesuite"/>
+          <include name="beforemethod"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- org.trmga.ags.contract.module.TC002_verifyUserIsAbleToCreateAgsContractWithAllFieldsTest -->
+      <class name="org.trgma.oil.contract.module.TC002_verifyUserIsAbleToCreateOilContractWithAllFieldsTest">
+        <methods>
+          <include name="tC002_verifyUserIsAbleToCreateOilContractWithAllFieldsTest"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforemethod"/>
+          <include name="beforesuite"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- org.trgma.oil.contract.module.TC002_verifyUserIsAbleToCreateOilContractWithAllFieldsTest -->
+      <class name="org.trgma.oil.contract.module.TC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest">
+        <methods>
+          <include name="beforetest"/>
+          <include name="aftersuite"/>
+          <include name="aftertest"/>
+          <include name="tC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforemethod"/>
+          <include name="beforesuite"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- org.trgma.oil.contract.module.TC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

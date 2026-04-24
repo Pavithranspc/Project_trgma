@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BatchSuite_Ags_testng.xml">
+  
+  <listeners>
+  
+  <listener class-name="org.trmga.genericutility.ListenerUtility"></listener>
+  
+  </listeners>
+  
+  <test thread-count="5" name="Test">
+  
+  
+  
+    <classes>
+      <class name="org.trmga.ags.contract.module.TC001_verifyUserIsAbleToCreateAgslContractWithMandatoryFieldsTest"/>
+      <class name="org.trmga.ags.contract.module.TC002_verifyUserIsAbleToCreateAgsContractWithAllFieldsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- BatchSuite_Ags_testng.xml -->

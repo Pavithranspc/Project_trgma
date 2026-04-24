@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[@beforesuite - connection establishment]]>
+    </line>
+    <line>
+      <![CDATA[@beforetest - create report]]>
+    </line>
+    <line>
+      <![CDATA[@beforeclass - open browser]]>
+    </line>
+    <line>
+      <![CDATA[@beforemethod - login]]>
+    </line>
+    <line>
+      <![CDATA[@test - test case, validation]]>
+    </line>
+    <line>
+      <![CDATA[@aftermethod - logout]]>
+    </line>
+    <line>
+      <![CDATA[@afterclass - close browser]]>
+    </line>
+    <line>
+      <![CDATA[@beforeclass - open browser]]>
+    </line>
+    <line>
+      <![CDATA[@beforemethod - login]]>
+    </line>
+    <line>
+      <![CDATA[@test - test case, validation]]>
+    </line>
+    <line>
+      <![CDATA[@aftermethod - logout]]>
+    </line>
+    <line>
+      <![CDATA[@afterclass - close browser]]>
+    </line>
+    <line>
+      <![CDATA[@aftertest - report backup]]>
+    </line>
+    <line>
+      <![CDATA[@aftersuite - connection termination]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-04-22T15:59:28 IST" name="BatchSuite_Oil_testng.xml" finished-at="2026-04-22T15:59:39 IST" duration-ms="11174">
+    <groups>
+    </groups>
+    <test started-at="2026-04-22T15:59:28 IST" name="Test" finished-at="2026-04-22T15:59:39 IST" duration-ms="11174">
+      <class name="org.trgma.oil.contract.module.TC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:org.trgma.oil.contract.module.TC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest@6379eb]" started-at="2026-04-22T15:59:28 IST" name="beforesuite" finished-at="2026-04-22T15:59:28 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@beforesuite - connection establishment]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:org.trgma.oil.contract.module.TC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest@6379eb]" started-at="2026-04-22T15:59:28 IST" name="beforetest" finished-at="2026-04-22T15:59:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@beforetest - create report]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:org.trgma.oil.contract.module.TC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest@6379eb]" started-at="2026-04-22T15:59:28 IST" name="beforeclass" finished-at="2026-04-22T15:59:30 IST" duration-ms="1966" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@beforeclass - open browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:org.trgma.oil.contract.module.TC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest@6379eb]" started-at="2026-04-22T15:59:30 IST" name="beforemethod" finished-at="2026-04-22T15:59:30 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@beforemethod - login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="tC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest()[pri:0, instance:org.trgma.oil.contract.module.TC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest@6379eb]" started-at="2026-04-22T15:59:30 IST" name="tC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest" finished-at="2026-04-22T15:59:33 IST" duration-ms="2819" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@test - test case, validation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:org.trgma.oil.contract.module.TC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest@6379eb]" started-at="2026-04-22T15:59:33 IST" name="aftermethod" finished-at="2026-04-22T15:59:34 IST" duration-ms="904" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@aftermethod - logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:org.trgma.oil.contract.module.TC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest@6379eb]" started-at="2026-04-22T15:59:34 IST" name="afterclass" finished-at="2026-04-22T15:59:34 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@afterclass - close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:org.trgma.oil.contract.module.TC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest@6379eb]" started-at="2026-04-22T15:59:39 IST" name="aftertest" finished-at="2026-04-22T15:59:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@aftertest - report backup]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:org.trgma.oil.contract.module.TC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest@6379eb]" started-at="2026-04-22T15:59:39 IST" name="aftersuite" finished-at="2026-04-22T15:59:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@aftersuite - connection termination]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- org.trgma.oil.contract.module.TC001_verifyUserIsAbleToCreateOilContractWithMandatoryFieldsTest -->
+      <class name="org.trgma.oil.contract.module.TC002_verifyUserIsAbleToCreateOilContractWithAllFieldsTest">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:org.trgma.oil.contract.module.TC002_verifyUserIsAbleToCreateOilContractWithAllFieldsTest@59309333]" started-at="2026-04-22T15:59:34 IST" name="beforeclass" finished-at="2026-04-22T15:59:35 IST" duration-ms="1306" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@beforeclass - open browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:org.trgma.oil.contract.module.TC002_verifyUserIsAbleToCreateOilContractWithAllFieldsTest@59309333]" started-at="2026-04-22T15:59:35 IST" name="beforemethod" finished-at="2026-04-22T15:59:36 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@beforemethod - login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="tC002_verifyUserIsAbleToCreateOilContractWithAllFieldsTest()[pri:0, instance:org.trgma.oil.contract.module.TC002_verifyUserIsAbleToCreateOilContractWithAllFieldsTest@59309333]" started-at="2026-04-22T15:59:36 IST" name="tC002_verifyUserIsAbleToCreateOilContractWithAllFieldsTest" finished-at="2026-04-22T15:59:38 IST" duration-ms="2394" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@test - test case, validation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tC002_verifyUserIsAbleToCreateOilContractWithAllFieldsTest -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:org.trgma.oil.contract.module.TC002_verifyUserIsAbleToCreateOilContractWithAllFieldsTest@59309333]" started-at="2026-04-22T15:59:38 IST" name="aftermethod" finished-at="2026-04-22T15:59:39 IST" duration-ms="904" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@aftermethod - logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:org.trgma.oil.contract.module.TC002_verifyUserIsAbleToCreateOilContractWithAllFieldsTest@59309333]" started-at="2026-04-22T15:59:39 IST" name="afterclass" finished-at="2026-04-22T15:59:39 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@afterclass - close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- org.trgma.oil.contract.module.TC002_verifyUserIsAbleToCreateOilContractWithAllFieldsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- BatchSuite_Oil_testng.xml -->
+</testng-results>
