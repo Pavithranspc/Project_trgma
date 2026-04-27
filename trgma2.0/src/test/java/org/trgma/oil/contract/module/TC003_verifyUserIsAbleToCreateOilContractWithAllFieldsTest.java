@@ -9,7 +9,6 @@ import org.trmga.objectrepository.CreateCampaignPage;
 import org.trmga.objectrepository.DashboardPage;
 
 public class TC003_verifyUserIsAbleToCreateOilContractWithAllFieldsTest extends BaseClass {
-
 	
 	@Test
 	public void tC002_verifyUserIsAbleToCreateOilContractWithAllFieldsTest() throws Throwable {
