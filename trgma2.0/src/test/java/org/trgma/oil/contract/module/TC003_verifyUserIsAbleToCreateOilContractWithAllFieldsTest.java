@@ -17,6 +17,7 @@ public class TC003_verifyUserIsAbleToCreateOilContractWithAllFieldsTest extends 
 
 		// test data
 		String CAMPAIGNNAME = futil.readDataFromExcelFile("Sheet1", 1, 1) + jutil.getRandomData();
+		String TARGETSIZE001 = futil.readDataFromExcelFile("Sheet1", 1, 3);
 		String TARGETSIZE = futil.readDataFromExcelFile("Sheet1", 1, 3);
 
 		// Dash board
